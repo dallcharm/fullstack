@@ -1,0 +1,12 @@
+INICIO
+    LEER jose
+    LEER juan
+    LEER herencia
+ 
+    totalAmbos = herencia + juan + jose
+    ESCRIBIR totalAmbos
+    totalJose = jose + herencia/2
+    ESCRIBIR totalJose
+    totalJuan = juan + herencia/2
+    ESCRIBIR totalJuan
+FIN

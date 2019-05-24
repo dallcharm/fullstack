@@ -1,0 +1,6 @@
+INICIO
+    LEER sueldo
+    LEER meta
+    totalHoras = meta / sueldo
+    ESCRIBIR totalHoras
+FIN

@@ -1,0 +1,9 @@
+INICIO
+    LEER ingreso1
+    LEER ingreso2
+    LEER gasto1
+    LEER gasto2
+    LEER gasto3
+    presupuesto = ingreso1 + ingreso2 - gasto1 - gasto2 - gasto3
+    ESCRIBIR presupuesto
+FIN

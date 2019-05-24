@@ -1,0 +1,6 @@
+INICIO
+    LEER compuValor
+    LEER iva //16
+    pago = compuValor + compuValor * (compuvalor * iva/100)
+    ESCRIBIR pago
+FIN

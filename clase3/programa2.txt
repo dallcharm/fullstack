@@ -1,0 +1,9 @@
+INICIO
+    LEER sal
+    LEER azucar
+    LEER cereal
+    LEER arroz
+    LEER helado
+    total = sal + azucar + cereal + arroz + helado
+    ESCRIBIR total
+FIN

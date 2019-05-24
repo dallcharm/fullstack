@@ -1,0 +1,6 @@
+INICIO
+    LEER precio
+    LEER cantidadPersonas
+    totalPorPersona = (precio + precio * 0.1)/cantidadPersonas
+    ESCRIBIR totalPorPersona 
+FIN

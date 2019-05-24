@@ -1,0 +1,7 @@
+INICIO
+    LEER valorMemify
+    LEER iva
+    gananciap = startup/2
+    total = gananciap - gananciap*(iva/100)
+    ESCRIBIR total
+FIN
