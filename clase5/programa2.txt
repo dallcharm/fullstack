@@ -1,0 +1,15 @@
+2.- Soy en personaje en un videojuego, y dependiendo del nivel tengo cierto título:
+ Cuando empiezo soy “Aprendiz” si llego al nivel 10 evoluciono a “Acróbata” y
+  si paso del nivel 20 me hago un “ninja”
+ ¿Que soy actualmente?
+
+ INICIO
+    LEER nivel
+    SI nivel < 10 ENTONCES
+        ESCRIBE "Aprendiz"
+    SI nivel = 10 ENTONCES
+        ESCRIBE "Acrobata"
+    SI nivel >= 20 ENTONCES
+        ESCRIBE "Ninja"
+    FIN-SI
+ FIN

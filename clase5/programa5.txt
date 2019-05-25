@@ -1,0 +1,16 @@
+5.- Estoy inscrito a muchas clases porque me gusta aprender: 
+Los lunes y miércoles voy a Historia, los martes a natacion, los jueves a esgrima
+ y los demás días descanso. Dime a qué clase voy si te digo un día.
+
+ INICIO
+    LEER dia
+    SI dia === "lunes" o dia === "miércoles" ENTONCES
+        ESCRIBIR "Vas a clase de Historia"
+    SI dia === "martes" ENTONCES
+        ESCRIBIR "Vas a clase de Natación"
+    SI dia === "jueves" ENTONCES
+        ESCRIBIR "Vas a clae de esgrima"
+    SINO
+        ESCRIBIR "Descanso"
+    FIN-SI
+ FIN

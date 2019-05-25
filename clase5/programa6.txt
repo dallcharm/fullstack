@@ -1,0 +1,14 @@
+6.- Estoy jugando un juego de dados,
+ gano si saco el mismo número en dos de los tres dados. Descubre si gané o no.
+
+ INICIO
+    LEER dado1
+    LEER dado2
+    LEER dado3
+
+    SI dado1 === dado2 o dado1 === dado3 o dado2 === dado3 ENTONCES
+        ESCRIBE "Ganaste"
+    SINO
+        ESCRIBE "PERDISTE"
+    FIN-SI  
+ FIN

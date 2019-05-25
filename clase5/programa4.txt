@@ -1,0 +1,12 @@
+4.- Tengo 3 examenes este semestre y mi papá me dijo que me daría un premio
+ si tengo un promedio final de 8.5 o más,
+ pero si repruebo me va a castigar.  ¿Cual fue mi destino?
+
+ INICIO
+    LEER promedio
+    SI promedio >= 8.5 ENTONCES
+        ESCRIBE "Te has ganado un premio"
+    SINO
+        ESCRIBE "Estas castigado"
+    FIN-SI
+ FIN

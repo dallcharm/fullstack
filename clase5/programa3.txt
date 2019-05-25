@@ -1,0 +1,17 @@
+3.- Vivo con varios roomies y siempre me roban la comida,
+ entonces le puse una contraseña al refrigerador. 
+ Tienes que hacer un programa que valide si mi nombre es el correcto y si mi contraseña también.
+
+ INICIO
+    LEER nombre
+    LEER contrasena
+    SI nombre === miNombre ENTONCES
+        SI contrasena === miContrasena ENTONCES
+            ESCRIBIR "TIENES ACCESO AL REFRIGERADOR"
+        SINO
+            ESCRIBIR "contrasena incorrecta"
+        FIN-SI
+    SINO
+        ESCRIBIR "nombre incorrecto"
+    FIN-SI
+ FIN
