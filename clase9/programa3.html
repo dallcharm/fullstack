@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="application/javascript">
+           function examenesAprobados (cantidadCalificaciones,calificaciones){
+            let sumaTotal = 0
+
+            for(let i=0 ; i < cantidadCalificaciones ; i ++){
+                if (calificaciones[i] < 6)
+                    sumaTotal ++
+
+            }
+
+            return sumaTotal
+           }
+
+           alert(examenesAprobados("Examenes reprobados: "5,[5,9,8,9,10]))
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

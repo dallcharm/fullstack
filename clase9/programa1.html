@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="application/javascript">
+           function calificacionDetalles (cantidadCalificaciones,calificaciones){
+            let sumaTotal = 0
+            let promedio = 0
+            for(let i=0 ; i < cantidadCalificaciones ; i ++){
+                sumaTotal += calificaciones[i]
+
+            }
+
+            promedio = sumaTotal / cantidadCalificaciones
+
+            if (promedio > 8)
+                alert("Obtuviste una beca !")
+            else
+                alert("No obtuviste una beca :(")
+           }
+
+           calificacionDetalles(5,[10,9,8,9,10])
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

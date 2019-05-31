@@ -1,0 +1,12 @@
+{
+  "name": "mi_paquete_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dallcharm <dallcharm@gmail.com>",
+  "license": "MIT"
+}

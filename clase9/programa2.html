@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="application/javascript">
+           function porcentajeClases (cantidad,listaAsistencia){
+            let sumaTotal = 0
+            let porcentaje = 0
+            for(let i=0 ; i < cantidad ; i ++){
+              
+                if(!listaAsistencia[i])
+                    sumaTotal ++
+            
+            }
+            alert(sumaTotal)
+            porcentaje = sumaTotal * 100 / cantidad
+
+            alert("El porcentaje de faltas es "+porcentaje)
+        }
+           porcentajeClases(5,[false,false,false,false,false])
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
