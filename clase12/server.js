@@ -1,9 +1,11 @@
 const http = require('http')
-const port = 8000
+const port = 9000
+const url = require('url')
 
 function responseHandler (request,response) {
 	response.writeHead(200,{'Content-Type':'text/plain'})
-	response.write('Hello World !')
+	const myURL = url.parse(request.url,true)
+	response.write(myURL.pathname)
 	response.end()
 }
 
